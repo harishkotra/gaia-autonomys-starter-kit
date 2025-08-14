@@ -5,6 +5,8 @@ A Node.js application that demonstrates integration between:
 - **AutoDrive** for decentralized storage on Autonomys Network
 - **Autonomys EVM (tAI3)** for payments
 
+<img width="1464" height="1615" alt="screencapture-localhost-3000-2025-08-14-21_29_03" src="https://github.com/user-attachments/assets/1533293a-4b9f-46f9-b912-6506a7856592" />
+
 ## Features
 
 1. **Wallet Connection**: Connect using Reown/WalletConnect
@@ -143,3 +145,4 @@ Stored chat transcripts include:
 
 - [Example 1](https://gateway.autonomys.xyz/file/bafkr6id56ls6qzcvpngpjfuyjouo4sx3gqclmd32pgvnzru5u6h4rczfg4)
 - [Example 2](https://gateway.autonomys.xyz/file/bafkr6igpejuqa46ioo26ftqowaxslsark64b2ovw66xn3ljuuppftkghla)
+- [Example 3](https://gateway.autonomys.xyz/file/bafkr6igmnmiwaj33oaxcw3vqnwy72vhh4avoeh36vj2kuj6lomxbidmzqi)
