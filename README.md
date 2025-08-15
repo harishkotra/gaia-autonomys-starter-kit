@@ -1,8 +1,8 @@
-# Gaia Node + AutoDrive Chat Application
+# Gaia Node + Auto Drive Chat Application
 
 A Node.js application that demonstrates integration between:
 - **Gaia Node** for AI chat functionality (OpenAI-compatible API). [Launch your own node.](https://docs.gaianet.ai/getting-started/quick-start/)
-- **AutoDrive** for decentralized storage on Autonomys Network
+- **Auto Drive** for decentralized storage on Autonomys Network
 - **Autonomys EVM (tAI3)** for payments
 
 
@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/c9e0627c-d2ef-454b-8816-23ef54638dfd
 
 1. **Wallet Connection**: Connect using Reown/WalletConnect
 2. **AI Chat**: Chat with a Gaia Node using OpenAI-compatible API
-3. **Decentralized Storage**: Store chat transcripts on AutoDrive
+3. **Decentralized Storage**: Store chat transcripts on Auto Drive
 4. **Payment Integration**: Pay using Autonomys EVM (tAI3)
 
 ## Setup
@@ -38,7 +38,7 @@ cp .env.example .env
 Edit `.env` with your actual values:
 ```
 PORT=3000
-AUTODRIVE_API_KEY=your-autodrive-api-key-here
+AUTODRIVE_API_KEY=your-auto-drive-api-key-here
 GAIA_NODE_URL=https://your-node-id.gaia.domains
 GAIA_API_KEY=your-gaia-api-key-here
 REOWN_PROJECT_ID=your-reown-project-id-here
@@ -51,7 +51,7 @@ REOWN_PROJECT_ID=your-reown-project-id-here
 3. Copy your Project ID
 4. Add it to your `.env` file as `REOWN_PROJECT_ID=your-actual-project-id`
 
-### 4. AutoDrive API Key
+### 4. Auto Drive API Key
 
 1. Visit [Auto Drive Dashboard](https://auto-drive.autonomys.xyz/)
 2. Sign in with Google, Discord, or GitHub
@@ -76,7 +76,7 @@ The application will be available at `http://localhost:3000`
 
 1. **Connect Wallet**: Click "Connect Wallet" to connect via Reown
 2. **Start Chatting**: Type messages to chat with the Gaia Node AI
-3. **Store Chat**: Click "Store on AutoDrive" to save the chat transcript
+3. **Store Chat**: Click "Store on Auto Drive" to save the chat transcript
 4. **View Stored Files**: Chat transcripts are stored with metadata including:
    - Session ID and wallet address
    - All messages with timestamps
@@ -94,7 +94,7 @@ The application will be available at `http://localhost:3000`
 - `GET /api/chat/node-info` - Get Gaia Node information
 
 ### Storage Endpoints
-- `POST /api/storage/store-chat` - Store chat transcript on AutoDrive
+- `POST /api/storage/store-chat` - Store chat transcript on Auto Drive
 - `GET /api/storage/my-files` - List stored files
 - `GET /api/storage/download/:cid` - Download file by CID
 
@@ -127,14 +127,14 @@ Stored chat transcripts include:
 - **Backend**: Node.js with ExpressJS
 - **Wallet**: Reown AppKit for wallet connectivity
 - **AI**: Gaia Node (OpenAI-compatible API) using OpenAI npm package
-- **Storage**: AutoDrive on Autonomys Network (Autonomys EVM)
+- **Storage**: Auto Drive on Autonomys Network (Autonomys EVM)
 - **Node**: Pre-configured for `https://0xebd3632ca5e7d758b88393f10b40ba8f59b0a396.gaia.domains`
 
 ## Security Notes
 
 - API keys are stored server-side only
 - Chat sessions are stored in memory (use database in production)
-- All AutoDrive uploads use compression
+- All Auto Drive uploads use compression
 - Files can be encrypted with optional passwords
 
 ## Production Considerations
@@ -144,7 +144,7 @@ Stored chat transcripts include:
 3. **Rate Limiting**: Implement rate limiting for API endpoints
 4. **Error Handling**: Enhanced error handling and logging
 5. **HTTPS**: Use HTTPS in production
-6. **Environment**: Use production Gaia Node and AutoDrive endpoints
+6. **Environment**: Use production Gaia Node and Auto Drive endpoints
 
 ## Examples of Stored Conversation
 
